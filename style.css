@@ -1,0 +1,87 @@
+* {
+    font-family: montserrat, sans-serif;
+    color:#031827;
+}
+
+.body {
+    margin-top:180px;
+    margin-left:100px;
+    margin-right:100px;
+}
+
+
+
+.big_header {
+    font-size:60px;
+    font-weight:400px;
+    line-height: 1;
+    padding:0px;
+    margin:0px;
+    margin-left:70px;
+}
+
+h3 {
+    font-weight:400px;
+    font-size:20px;
+}
+
+.textboxleft {
+    width: 50%;
+}
+
+.textboxright {
+    width: 50%;
+}
+
+.imageboxleft {
+    width: 50%;
+    object-fit: cover;
+}
+
+.imageboxright {
+    width: 50%;
+    height: 20%;
+    object-fit: cover;
+}
+
+.flex {
+    display: flex;
+}
+
+.column {
+  float: left;
+  width: 30%;
+  background-color: white;
+}
+
+.imgcolumn {
+  width: 100%;
+  border-radius:20px;
+}
+
+.column2 {
+    width: 48%;
+    background-color: white;
+    padding:10px;
+}
+
+.experiencelist {
+    list-style:none;
+    line-height:3;
+}
+
+.experiencesection {
+    display:inline;
+}
+
+.newline {
+    display: block;
+}
+
+.row {
+  display: flex;
+}
+
+a {
+    color: #2ec3b5;
+}
