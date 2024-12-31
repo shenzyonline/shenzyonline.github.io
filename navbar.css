@@ -149,3 +149,7 @@ hr.navigation {
     overflow:hidden;
     
 }
+
+.active {
+    font-weight: bold;
+}
