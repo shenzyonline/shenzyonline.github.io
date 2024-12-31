@@ -88,7 +88,7 @@ a {
 
 /*CSS for slideshow on index page*/
 
-* {box-sizing:border-box}
+.slideshow-container {box-sizing:border-box}
 
 /* Slideshow container */
 .slideshow-container {
