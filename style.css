@@ -92,6 +92,7 @@ a {
 
 /* Slideshow container */
 .slideshow-container {
+  z-index: -5;
   max-width: 1000px;
   position: relative;
   margin: auto;
