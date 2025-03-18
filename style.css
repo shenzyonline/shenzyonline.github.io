@@ -34,12 +34,12 @@ h3 {
 }
 
 .imageboxleft {
-    width: 50%;
+    width: 49%;
     object-fit: cover;
 }
 
 .imageboxright {
-    width: 50%;
+    width: 49%;
     height: 20%;
     object-fit: cover;
 }
