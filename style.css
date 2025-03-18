@@ -34,7 +34,7 @@ h3 {
 }
 
 .imageboxleft {
-    width: 49%;
+    width: 98%;
     object-fit: cover;
 }
 
@@ -45,7 +45,7 @@ h3 {
 }
 
 .imageboxrightlogo {
-    width: 49%;
+    width: 98%;
     object-fit: none;
 }
 
