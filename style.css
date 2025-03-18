@@ -177,3 +177,7 @@ a {
   to {opacity: 1}
 }
 
+.responsive-image {
+      width: 100%;  
+      max-width: 780px;  /* Maximum width of the image */
+}
