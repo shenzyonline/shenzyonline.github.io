@@ -46,7 +46,7 @@ h3 {
 
 .imageboxrightlogo {
     width: 49%;
-    object-fit: scale-down;
+    object-fit: none;
 }
 
 .flex {
