@@ -40,7 +40,13 @@ h3 {
 
 .imageboxright {
     width: 49%;
+    height: 20%;
     object-fit: cover;
+}
+
+.imageboxrightlogo {
+    width: 49%;
+    object-fit: scale-down;
 }
 
 .flex {
