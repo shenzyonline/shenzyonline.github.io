@@ -58,11 +58,24 @@
         
         <!--Header that says the title of the page-->
         <div class = "body">
-        <header class = "big_header">
-            <h1>Writing</h1>
+        <header class = "big_header typewriter">
+            <h1 id = "typewriter">Writing</h1>
             <img src = "/images/Red Shenzy Squiggle.svg" alt = "red squiggle">
         </header>
-        
+
+        <script>
+            var i = 0;
+            var txt = 'Lorem ipsum typing effect!'; /* The text */
+            var speed = 50; /* The speed/duration of the effect in milliseconds */
+
+            function typeWriter() {
+              if (i < txt.length) {
+                document.getElementById("typewriter").innerHTML += txt.charAt(i);
+                i++;
+                setTimeout(typeWriter, speed);
+              }
+            }
+        </script>
         
         <section>
             <a href = "#Stories">
