@@ -242,24 +242,34 @@ a {
   font-weight: bold;
 }
 
-    .iframevideo .video-grid {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 20px;
-      max-width: 1000px;
-      margin: auto;
-      padding: 20px;
-    }
-    .iframevideo .video-item {
-      text-align: center;
-    }
-    .iframevideo iframe {
-      width: 100%;
-      height: 300px;
-      border: none;
-    }
-    .iframevideo .video-title {
-      margin-top: 10px;
-      font-size: 1.2em;
-      font-weight: bold;
-    }
+ .iframevideo .video-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px;
+}
+
+.iframevideo .video-item {
+  text-align: center;
+}
+
+.iframevideo iframe {
+  width: 100%;
+  height: 300px;
+  border: none;
+}
+
+.iframevideo .video-title {
+  margin-top: 10px;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+/* Responsive behavior: stack into 1 column on smaller screens */
+@media (max-width: 768px) {
+  .iframevideo .video-grid {
+    grid-template-columns: 1fr;
+  }
+}
