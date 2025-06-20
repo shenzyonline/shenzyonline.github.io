@@ -80,7 +80,9 @@ h3 {
 }
 
 .newline {
-    display: block;
+    display: flex;
+    justify-content: space-between; /* space out the columns */
+    gap: 20px; /* optional spacing */
 }
 
 .newline h1 {
